@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
 
 html{
+    font-size: 10px;
+}
+
+html{
     box-sizing: border-box;
 }
 
@@ -21,6 +25,24 @@ body{
     height: 100vh;
     width: 40%;
     background: no-repeat center/cover url(img/halie-west-GubApA69UZM-unsplash.jpg);
+}
+
+.icon-overlay{
+    display: flex;
+    justify-content: center;
+    background-color: hsla(0, 0%, 0%,.70);
+    margin-top: 40%;
+
+}
+
+#whale-icon{
+    width: 150px;
+}
+
+h1{
+    color: white;
+    font-size: 6rem;
+    margin-left: 6px;
 }
 
 
