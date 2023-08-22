@@ -48,7 +48,7 @@ main{
     background-color: rgb(214, 214, 214);
 }
 
-main p{
+#headline{
     font-weight: bold;
     padding: 40px;
     font-size: 2rem;
@@ -90,3 +90,31 @@ input{
     margin-bottom: 20px;
 }
 
+.buttons{
+  padding: 40px;
+}
+
+button{
+    padding: 15px 60px;
+    margin-bottom: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 1.8rem;
+    background-color: #596D48;
+    color: white;
+    border-radius: 10px;
+}
+
+.buttons p{
+    font-size: 1.5rem;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+a{
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+}
