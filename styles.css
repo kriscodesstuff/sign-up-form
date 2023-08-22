@@ -85,9 +85,11 @@ label{
 
 input{
     width: 300px;
-    height: 30px;
+    height: 35px;
     padding-left: 4px;
     margin-bottom: 20px;
+    border-radius: 6px;
+    border: 2px solid #E5E7EB;
 }
 
 .buttons{
@@ -117,4 +119,13 @@ a{
     color: #596D48;
     font-weight: bold;
     text-decoration: none;
+}
+
+input:focus{
+    border-color: blue;
+    outline: none;
+}
+
+input:invalid{
+    border-color: red;
 }
